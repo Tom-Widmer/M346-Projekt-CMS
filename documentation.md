@@ -21,8 +21,11 @@ Im Rahmen des Moduls M346 hatten wir die Aufgabe, ein Content Management System 
 - ---
 
 # **2. Installation und Konfiguration**  
-## **2.1 Voraussetzungen**  
-## **2.2 Automatisierung der Infrastruktur**  
+## **2.1 Voraussetzungen**
+- AWS CLI muss installiert und konfiguriert sein.
+- Ein gültiger SSH-Key zur Verbindung mit den Instanzen, welcher mit dem Skript ["iac.sh"](./iac.sh) erstellt werden kann.
+- Git ist installiert oder Online Verfügbar. Vorteilhaft wäre aber lokal, damit man alle Skripts gerade zur Verfügung hat.
+## **2.2 Automatisierung der Infrastruktur** 
 ## **2.3 Konfiguration des Webservers**  
 ## **2.4 Konfiguration der Datenbank**  
 
