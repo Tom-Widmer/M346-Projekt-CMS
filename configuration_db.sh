@@ -12,7 +12,6 @@ sudo apt update -y
 sudo apt install -y mariadb-server
 
 # MariaDB Konfiguration anpassen, damit von allen Interfaces aus zugegriffen werden kann
-# (Falls notwendig, normalerweise ist Default bind=0.0.0.0 bei Ubuntu/Mariadb aber wir gehen auf Nummer sicher)
 sudo sed -i "s/^bind-address\s*=.*/bind-address = 0.0.0.0/" /etc/mysql/mariadb.conf.d/50-server.cnf
 sudo systemctl restart mariadb
 
