@@ -48,8 +48,11 @@ Sollte es zu Fehlern während des ausführen kommen, könnte eines der Probleme 
 ---
 
 # **4. Testfälle**  
-## **4.1 Testfall 1: **  
-## **4.2 Testfall 2: **  
+## **4.1 Testfall 1:** 
+Ein Problem, welches uns über den Weg gelaufen ist, wäre dieses hier gewesen:
+![Datenbankfehler_WP](Bilder/Datenbankfehler_WP.png "BeispielbildDatenbankfehler_WP")
+Das Problem dabei ist, dass der Webserver mit Apache und Wordpress nicht auf die Datenbank zugreifen konnte und somit keine Webseite mit Wordpress funktionstüchtig erstellt werden konnte. Wir dachten zuerst, dass es der SQL Port nicht freigegeben war, was auch nicht der Fall war, was wir aber ändern konnten. Als dies aber gemacht wurde, war das Resultat immer noch negativ. Wir haben dann noch weiter gesucht und uns ist dann aufgefallen, dass wir immer mit der falschen IP die Verbindung zum DB Server aufbauen wollen. Dies konnten wir ändern, in dem wir nicht die Public IP nahmen, sondern die normale. Dann hat es funktioniert und wir haben das Skript gerade noch erweitert und zwar so, dass die richtige IP für die Verbindung schon beim erstellen der Instanzen in der AWS Cloud ausgegeben wird.
+## **4.2 Testfall 2:**  
 
 ---
 
