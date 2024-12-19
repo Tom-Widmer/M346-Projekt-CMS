@@ -91,3 +91,4 @@ Bei vielen Punkten muss ich Tom zustimmen, da wir gemeinsam auf die gleichen Pro
 - [configuration_db.sh](configuration_db.sh)
 - [configuration_wp.sh](configuration_wp.sh)
 ## **6.3 Quellen**
+[WordPress](https://wordpress.com/de/)
